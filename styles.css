@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  background-image: url("https://img.goodfon.com/wallpaper/nbig/b/2d/tort-shokoladnaia-glazur-bliudo-razmytost-boke.jpg");
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.product {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
